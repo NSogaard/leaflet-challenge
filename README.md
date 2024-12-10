@@ -1,2 +1,2 @@
-# leaflet-challenge
- A repo for the module #15 challenge!
+# Module #15 Challenge
+No outside sources were consulted during the creation of this project outside of the official documentation for a number of the technologies used in this project.

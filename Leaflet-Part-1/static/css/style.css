@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend-div {
+  height : fit-content;
+  width : fit-content;
+  background: white;
+  opacity : 0.75;
+  border-radius: 5px;
+
+  padding : 0 10px;
+
+  ul {
+    list-style-type: none;
+    padding : 0 0;
+  }
+}
+
+.legend-label {
+  height : 20px;
+  width : 75px;
+
+  display : flex;
+  flex-direction : row;
+  align-items : center;
+
+  p {
+    width : 50px;
+    margin : 0 0 0 0;
+
+    align-self : center;
+  }
+}
+
+.color-div {
+  height : 20px;
+  width : 20px;
+
+  margin-right : 10px;
+}
+
+.tooltip-wrapper {
+  height : 100px;
+  width : 200px;
+
+  display : flex;
+  flex-direction : column;
+  justify-content : center;
+
+  .tooltip-div {
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+
+    h3 {
+      width : 100px;
+      margin : 0 0;
+    }
+
+    p {
+      width :100px;
+      margin : 0 0;
+    }
+  }
+}
